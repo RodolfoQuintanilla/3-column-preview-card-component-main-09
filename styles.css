@@ -1,0 +1,42 @@
+:root {
+  --Brightorange: hsl(31, 77%, 52%);
+  --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+}
+
+.btn__color {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  border-radius: 60px;
+  padding: 5px 10px 5px 10px;
+  
+}
+
+.caja1 {
+  background-color: var(--Brightorange);
+  color: white;
+}
+.caja2 {
+  background-color: var(--Darkcyan);
+  color: white;
+}
+.caja3 {
+  background-color: var(--Verydarkcyan);
+  color: white;
+}
+
+img {
+  color: white;
+}
+
+.caja {
+  padding-left: 10%;
+  
+}
+
+
+@media screen and (max-width:570px) {
+    .caja {
+        padding: 5%;
+        
+      }
+}
